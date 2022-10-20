@@ -49,5 +49,16 @@ des clients possibles sur les réseaux suivants:
       (2^19)-2 = 524 286
       172.28.0.1 - 172.7.255.254
       ```
-
-
+- 2 Mise en place d’un serveur DHCP et DNS :
+  - 2.1 Prérequis :
+     -  4 machines virtuelles :
+    ![vm](/pics/vm.png)
+    - Configurer ces machines pour utiliser le FQDN [nom explicite].lab.ingesup 
+( /etc/hostname puis reboot )
+       - dhcp 
+       - client01
+       - client02
+       - dns
+  - 2.2 OpenSSH :
+    - Modifier le fichier de configuration du serveur SSH ( /etc/ssh/sshd_config ) :
+    
