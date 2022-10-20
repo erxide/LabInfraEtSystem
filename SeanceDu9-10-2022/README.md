@@ -7,4 +7,4 @@
   - Continuation du tp
   - Présentation et choix des projets
 
-Durant la prochaine séance, je ferais continuerai mon projet.
+Durant la prochaine séance, je continuerais mon projet.
