@@ -53,7 +53,7 @@ des clients possibles sur les réseaux suivants:
   - 2.1 Prérequis :
      -  4 machines virtuelles :
      
-     ![vm](/pics/vm.png)
+       ![vm](/pics/vm.png)
     - Configurer ces machines pour utiliser le FQDN [nom explicite].lab.ingesup 
 ( /etc/hostname puis reboot )
        - dhcp 
